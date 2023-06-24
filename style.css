@@ -1,0 +1,101 @@
+.title-background {
+  background-image: url("./images/blue-trianglify-8e4a0501.jpg");
+  background-size: 100% 100%;
+  padding: 5rem;
+}
+
+#title div h1,
+h2 {
+  font-family: "Kanit", sans-serif;
+}
+
+p {
+  font-family: "Lora", serif;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+hr {
+  background-color: rgb(34, 89, 184);
+  padding: 0;
+  margin: 80px;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    rgba(34, 89, 184, 0),
+    rgba(34, 89, 184, 1),
+    rgba(34, 89, 184, 0)
+  );
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  align-items: center;
+}
+
+.education-grid > p {
+  font-weight: 800;
+  text-align: end;
+}
+
+.education-grid > div > p {
+  text-align: start;
+  padding-left: 3rem;
+}
+
+.education-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  align-items: center;
+}
+
+.work-grid > p {
+  font-weight: 800;
+  text-align: end;
+}
+
+.work-grid > div > p {
+  text-align: start;
+  padding-left: 3rem;
+}
+
+.work-icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+
+.skill-icon {
+  width: 150px;
+  height: 150px;
+}
+
+.button {
+  background-color: rgb(53, 152, 247);
+  color: white;
+  font-family: "Kanit", sans-serif;
+}
+
+#footer {
+  background-color: rgb(212, 226, 250);
+}
